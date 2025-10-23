@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="coffeeshop_assignment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="coffeeshop-icons">
+                <img src="images/brown-minimalist-coffee-bean-logo-design.png" alt="coffee icon">
+            </a>
+            <i class="menu-icon fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="coffeeselection.html">Coffee Selection</a></li>
+                <li><a href="brewingequipment.html">Brewing Equipment</a></li>
+                <li>
+                    <a href="#" class="drop-down" id="aboutUsToggle">
+                        Join Us<i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="drop-down-menu" id="aboutUsMenu">
+                        <li><a href="eventsandworkshop.html">Events & Workshops</a></li>
+                        <li><a href="specialoffer.html">Special Offers & Subscriptions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-icons">
+                    <div class="nav-cart-icons">
+                        <a href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="nav-get-started">
+                        <a href="signin.html">Get Started</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="shoppingcart-container">
+        <div class="cart-details-voucher-details">
+            <div class="cart-card-details">
+                <div class="coffee-card-details">
+                    <div class="card-details-heading">
+                        <img src="images/local_mall_35dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="local mall icon">
+                        <h2>My Cart</h2>
+                    </div>
+                    <div class="coffee-details">
+                        <img src="images/latte-small-removebg-preview.png" alt="Latte Coffee" class="latte-card-img">
+                        <div class="coffee-details-text">
+                            <h3>Lattee</h3>
+                            <p>Latte – A smooth and creamy espresso-based drink made with rich, freshly brewed espresso
+                                and steamed milk, topped with a light layer of velvety microfoam.</p>
+                            <p class="details-text-price">Price : $15</p>
+                            <button class="Add">+</button>
+                            <input type="text" name="qty" value="0">
+                            <button class="Remove">-</button>
+                        </div>
+                    </div>
+                    <div class="coffee-details">
+                        <img src="images/americano-vs-drip-coffee-removebg-preview.png" alt="Americano Coffee"
+                            class="americano-card-img">
+                        <div class="coffee-details-text">
+                            <h3>Americano</h3>
+                            <p>Latte – A smooth and creamy espresso-based drink made with rich, freshly brewed espresso
+                                and steamed milk, topped with a light layer of velvety microfoam.</p>
+                            <p class="details-text-price">Price : $15</p>
+                            <button class="Add">+</button>
+                            <input type="text" name="qty" value="0">
+                            <button class="Remove">-</button>
+                        </div>
+                    </div>
+                    <div class="coffee-details">
+                        <img src="images/Cappuccino-removebg-preview.png" alt="Cappuccino Coffee"
+                            class="cappuccino-card-img">
+                        <div class="coffee-details-text">
+                            <h3>Cappuccino</h3>
+                            <p>Latte – A smooth and creamy espresso-based drink made with rich, freshly brewed espresso
+                                and steamed milk, topped with a light layer of velvety microfoam.</p>
+                            <p class="details-text-price">Price : $15</p>
+                            <button class="Add">+</button>
+                            <input type="text" name="qty" value="0">
+                            <button class="Remove">-</button>
+                        </div>
+                    </div>
+                    <div class="coffee-details">
+                        <img src="images/espressohowto-11-1024x683-removebg-preview.png" alt="espresso Coffee"
+                            class="espresso-card-img">
+                        <div class="coffee-details-text">
+                            <h3>Espresso</h3>
+                            <p>Latte – A smooth and creamy espresso-based drink made with rich, freshly brewed espresso
+                                and steamed milk, topped with a light layer of velvety microfoam.</p>
+                            <p class="details-text-price">Price : $15</p>
+                            <button class="Add">+</button>
+                            <input type="text" name="qty" value="0">
+                            <button class="Remove">-</button>
+                        </div>
+                    </div>
+                    <div class="coffee-details">
+                        <img src="images/mocha.webp" alt="Mocha Coffee" class="mocha-card-img">
+                        <div class="coffee-details-text">
+                            <h3>Mocha</h3>
+                            <p>Latte – A smooth and creamy espresso-based drink made with rich, freshly brewed espresso
+                                and steamed milk, topped with a light layer of velvety microfoam.</p>
+                            <p class="details-text-price">Price : $15</p>
+                            <button class="Add">+</button>
+                            <input type="text" name="qty" value="0">
+                            <button class="Remove">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="voucher-details">
+                <div class="voucher-details-form">
+                    <div class="voucher-table">
+                        <table>
+                            <tr>
+                                <th class="table-number">No</th>
+                                <th class="table-item-name">Item</th>
+                                <th class="table-quantity">Qty</th>
+                                <th class="table-price">Price</th>
+                            </tr>
+                            <tr>
+                                <td>1.</td>
+                                <td class="item-name-row">Americano</td>
+                                <td>2</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td class="item-name-row">Latte</td>
+                                <td>1</td>
+                                <td>$15.00</td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td class="item-name-row">Espresso</td>
+                                <td>1</td>
+                                <td>$25.00</td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td class="item-name-row">Mocha</td>
+                                <td>2</td>
+                                <td>$30.00</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td> </td>
+                                <td>
+                                    <h3>Total:</h3>
+                                </td>
+                                <td>
+                                    <h3>$94.00</h3>
+                                </td>
+                            </tr>
+                        </table>
+                        <button>
+                            Proceed to Checkout
+                        </button>
+                        <p>* Review your order before proceeding. Changes cannot be made after checkout.*</p>
+                    </div>
+                </div>
+                <div class="checkout-payment-form">
+                    <div class="checkout-form-billing-address">
+                        <h3>Billing Address</h3>
+                        <div class="billing-address-input">
+                            <span>Full Name</span>
+                            <input type="text" name="full name" placeholder="Enter Your Name">
+                            <span>Email Address</span>
+                            <input type="email" name="email address" placeholder="Enter Your Email">
+                            <span>Contact Number</span>
+                            <input type="text" name="ph number" placeholder="Enter Your Number">
+                            <span>Address</span>
+                            <input type="text" name="address" placeholder="Enter Your Address">
+                            <span>City</span>
+                            <input type="text" name="city" placeholder="Enter Your City">
+                        </div>
+                    </div>
+                    <div class="checkout-payment">
+                        <h3>Payment</h3>
+                        <span>Accepted Card</span>
+                        <div class="payment-input">
+                            <div id="payment-input-visa">
+                                <input type="radio" name="visa-payment">
+                                <img src="images/visa.webp" alt="Visa card">
+                            </div>
+                            <div id="payment-input-paypal">
+                                <input type="radio" name="paypal-payment">
+                                <img src="images/paypal-graphic.webp" alt="Paypay card">
+                            </div>
+                        </div>
+                        <div id="payment-input-mastercard">
+                            <input type="radio" name="mastercard-payment">
+                            <img src="images/mastercard.png" alt="mastercard">
+                        </div>
+                        <button>Make Payment</button>
+                        <p>* Please select your preferred payment method to proceed. By continuing, you confirm that you
+                            authorize this payment and agree to our Terms & Conditions. Transactions are secured and
+                            encrypted for your safety *</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Coffee Products</a></li>
+                    <li><a href="#">Brewing Equipment</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Events & Workshops</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Coffee St, Bean City</p>
+                <p>Email: info@coffeeshop.com</p>
+            </div>
+            <div class="footer-column social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/Facebook_Logo_2023.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/Instagram_icon.png.webp" alt="Twitter"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/1729449055_twitter-logo-square-shape-png.png"
+                            alt="Instagram"></a>
+                </div>
+                <div class="footer-column subscription">
+                    <h3>Subscribe for Updates</h3>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coffee Shop. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of
+                        Service</a> | <a href="#">Accessibility</a>
+                </p>
+            </div>
+            </div>
+    </footer>
+
+<script>
+    ["payment-input-visa", "payment-input-paypal", "payment-input-mastercard"].forEach(id => {
+        document.getElementById(id).addEventListener("click", function () {
+            ["payment-input-visa", "payment-input-paypal", "payment-input-mastercard"].forEach(clearId => {
+                document.getElementById(clearId).classList.remove("selected");
+            });
+
+            this.classList.add("selected");
+            this.querySelector("input").checked = true;
+        });
+    });
+</script>
+<script>
+    const menu = {
+        toggle: document.querySelector('.menu-icon'),
+        nav: document.querySelector('nav ul'),
+        dropdown: {
+            toggle: document.querySelector('#aboutUsToggle'),
+            menu: document.querySelector('#aboutUsMenu')
+        }
+    };
+
+    const closeMenus = () => {
+        menu.nav.classList.remove('active');
+        menu.dropdown.menu.classList.remove('show-menu');
+    };
+
+    const isMobile = () => window.innerWidth <= 768;
+
+    menu.toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        menu.nav.classList.toggle('active');
+        menu.dropdown.menu.classList.remove('show-menu');
+    });
+
+    menu.dropdown.toggle.addEventListener('click', (e) => {
+        if (!isMobile()) {
+            e.preventDefault();
+            menu.dropdown.menu.classList.toggle('show-menu');
+        }
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('nav ul') && !e.target.closest('.menu-icon')) {
+            closeMenus();
+        }
+        if (!e.target.closest('#aboutUsToggle') && !e.target.closest('#aboutUsMenu')) {
+            menu.dropdown.menu.classList.remove('show-menu');
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        if (!isMobile()) closeMenus();
+    });
+
+    menu.dropdown.toggle.addEventListener('touchend', (e) => {
+        if (isMobile()) {
+            e.preventDefault();
+            menu.dropdown.menu.classList.toggle('show-menu');
+        }
+    });
+</script>
+</body>
+</html>

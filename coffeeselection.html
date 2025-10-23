@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Selection</title>
+    <link rel="stylesheet" href="coffeeshop_assignment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="coffeeshop-icons">
+                <img src="images/brown-minimalist-coffee-bean-logo-design.png" alt="coffee icon">
+            </a>
+            <i class="menu-icon fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="coffeeselection.html">Coffee Selection</a></li>
+                <li><a href="brewingequipment.html">Brewing Equipment</a></li>
+                <li>
+                    <a href="#" class="drop-down" id="aboutUsToggle">
+                        Join Us<i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="drop-down-menu" id="aboutUsMenu">
+                        <li><a href="eventsandworkshop.html">Events & Workshops</a></li>
+                        <li><a href="specialoffer.html">Special Offers & Subscriptions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-icons">
+                    <div class="nav-cart-icons">
+                        <a href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="nav-get-started">
+                        <a href="signin.html">Get Started</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="selection-container">
+        <h1>Wake Up Your Taste Buds!</h1>
+        <div class="discount-badge">Today Only: 25% Off All Cold Brews!</div>
+        <p>Join our coffee revolution - 150+ artisanal blends to explore</p>
+    </section>
+
+    <div class="beverage-category">
+        <h2 class="category-title">Beverages</h2>
+        <div class="cards-container">
+            <div class="container-card">
+                <img src="images/What_is_a_latte.webp" alt="Latte" class="item-image">
+                <h3 class="item-name">Latte</h3>
+                <p class="description">Creamy latte made with espresso and steamed almond milk, lightly sweetened with
+                    honey</p>
+                <p class="ingredients">Ingredients: Espresso, almond milk, honey</p>
+                <p class="price">$5.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/Americano-coffee.jpg" alt="Americano" class="item-image">
+                <h3 class="item-name">Americano</h3>
+                <p class="description">Bold Americano made with rich espresso and hot water for a smooth, strong flavor
+                </p>
+                <p class="ingredients">Ingredients: Espresso, water</p>
+                <p class="price">$4.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/jasminefw_d716d85a-0cfd-4e1c-a049-e83ae1ddc7b9_480x480.webp" alt="Velvety Flat White"
+                    class="item-image">
+                <h3 class="item-name">Velvety Flat White</h3>
+                <p class="description">Smooth espresso balanced with silky steamed milk for a creamy texture</p>
+                <p class="ingredients">Ingredients: Espresso, milk.</p>
+                <p class="price">$4.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/s532183151965440214_p4_i3_w1500.webp" alt="Cappuccino" class="item-image">
+                <h3 class="item-name">Cappuccino</h3>
+                <p class="description">Velvety cappuccino with a perfect balance of espresso, steamed milk, and frothy
+                    foam</p>
+                <p class="ingredients">Ingredients: Espresso, milk, foam</p>
+                <p class="price">$5.49</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/espresso.webp" alt="Espresso" class="item-image">
+                <h3 class="item-name">Espresso</h3>
+                <p class="description">Intense espresso shot, rich and full-bodied for a quick caffeine boost.</p>
+                <p class="ingredients">Ingredients: espresso</p>
+                <p class="price">$3.49</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/Mocha-1fc71f7.png" alt="Mocha" class="item-image">
+                <h3 class="item-name">Mocha</h3>
+                <p class="description">Decadent mocha blending rich espresso, steamed milk, and chocolate for a sweet
+                    treat</p>
+                <p class="ingredients">Ingredients: Espresso, milk, chocolate</p>
+                <p class="price">$5.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/The-Best-Oat-Milk-Latte-At-Home-5-min-Homemade-Coffee-8.jpg" alt="Oat Milk Latte"
+                    class="item-image">
+                <h3 class="item-name">Oat Milk Latte</h3>
+                <p class="description">Smooth oak milk coffee, blending rich espresso with creamy oak milk for a unique,
+                    nutty flavor</p>
+                <p class="ingredients">Ingredients: Espresso, steamed milk, foam, cocoa</p>
+                <p class="price">$5.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/red-velvet-latte-close-up_CWIS_Shutterstock.jpg" alt="Cappuccino" class="item-image">
+                <h3 class="item-name">Velvet Cappuccino</h3>
+                <p class="description">Rich espresso with steamed milk and airy foam for a creamy, indulgent texture</p>
+                <p class="ingredients">Ingredients: Espresso, steamed milk, foam, cocoa</p>
+                <p class="price">$4.99</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="container-card">
+                <img src="images/decadentaffogatodessert.jpg" alt="Decadent Affogato Dessert" class="item-image">
+                <h3 class="item-name">Decadent Affogato Dessert</h3>
+                <p class="description">A dessert-inspired blend of hot espresso poured over creamy vanilla gelato</p>
+                <p class="ingredients">Ingredients: Espresso, vanilla gelato</p>
+                <p class="price">$6.49</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="coffee-selection-slideshow">
+        <div class="selection-slideshow">
+            <div class="slide-item">
+                <img src="images/selection-of-different-coffee-type.jpg" alt="collection of various coffee types">
+                <div class="slide-caption">Discover Our Latest Brews</div>
+            </div>
+
+            <div class="slide-item">
+                <img src="images/nathan-dumlao-vbt-Fp3b5FA-unsplash-scaled.jpg" alt="coffee cups with three stage">
+                 <div class="slide-caption">Freshly Roasted Beans</div>
+            </div>
+
+            <div class="slide-item">
+                <img src="images/The-Ultimate-Guide-to-Starting-a-Coffee-Stall.jpeg" alt="coffee delivery package">
+                 <div class="slide-caption">Visit Our Bean Boutique Coffee Shop</div>
+            </div>
+
+            <div class="slide-item">
+                <img src="images/online-concept-coffee-shop-delivery-on-mobile-food-and-drink-order-application-vector.jpg" alt="Delivery service and order online">
+                <div class="slide-caption">Discover Our Latest Brews</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="coffee-product-category">
+        <h2 class="category-title">Coffee Products</h2>
+        <div class="cards-container">
+            <div class="container-card">
+                <img src="images/blanco-coffee-jogja-cafe-shop-house-blend_bocca-bold.jpg" alt="Blanco House blend"
+                    class="item-image">
+                <h3 class="item-name">BLANCO</h3>
+                <p class="description"> Premium Arabica blend with floral and citrus notes</p>
+                <p class="ingredients">Ideal for pour-over or drip coffee.</p>
+                <p class="price">$14.99 | 250g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/000124970-1.jpg" alt="Ethiopian Yirgacheffe" class="item-image">
+                <h3 class="item-name">Ethiopian Yirgacheffe</h3>
+                <p class="description">Bright, floral notes with hints of lemon and jasmine</p>
+                <p class="ingredients">Ideal for pour-over or Chemex brewing</p>
+                <p class="price">$18.99 | 500g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/lipton-tea-black-20-vanilla-caramel.jpg" alt="Vanilla Caramel Flavor"
+                    class="item-image">
+                <h3 class="item-name">Vanilla Caramel Flavor</h3>
+                <p class="description">Sweeten lattes, iced coffee, or desserts with natural ingredients</p>
+                <p class="ingredients">1-2 pumps per drink</p>
+                <p class="price">$11.99 | 350ml</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/Cold+Brew+Concentrate+32oz+web.jpg"
+                    alt="Cold Brew Concentrate" class="item-image">
+                <h3 class="item-name">Lacas Cold Brew Concentrate</h3>
+                <p class="description">Ready-to-mix concentrate with chocolatey undertones</p>
+                <p class="ingredients">Dilute 1:3 with water or milk</p>
+                <p class="price">$14.99 | 1L</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/PNR-Hazelnut-12oz-bag-front_1800x1800.webp"
+                    alt="Hazelnut Cream Coffee" class="item-image">
+                <h3 class="item-name">Hazelnut Cream Coffee</h3>
+                <p class="description">Smooth medium roast blended with roasted hazelnut flavor</p>
+                <p class="ingredients">Drip or espresso machines</p>
+                <p class="price">$12.99 | 500g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/Frothy-Cold-Brew-Concentrate-Lifestyle_WEB-1.jpg" alt="Cold Brew Concentrate"
+                    class="item-image">
+                <h3 class="item-name">Cold Brew Concentrate</h3>
+                <p class="description">Ready-to-mix concentrate with chocolatey undertones</p>
+                <p class="ingredients">Dilute 1:3 with water or milk</p>
+                <p class="price">$14.99 | 1L </p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/colombia-12oz-front-web.webp" alt="Colombian Single-Origin"
+                    class="item-image">
+                <h3 class="item-name">Colombian Single-Origin</h3>
+                <p class="description">red berries and a hint of sugarcane sweetness</p>
+                <p class="ingredients">Chemex or AeroPress recommended</p>
+                <p class="price">$17.25 | 500g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/914Wx914H-null.jpg" alt="Dark Chocolate & Espresso Crunch" class="item-image">
+                <h3 class="item-name">Dark Chocolate & Espresso Crunch</h3>
+                <p class="description">Rich 70% dark chocolate with coffee nibs</p>
+                <p class="ingredients">Pair with black coffee or gift</p>
+                <p class="price">$7.49 | 100g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="container-card">
+                <img src="images/03ce2803f8a0e6329742ae67552b967a.jpg"
+                    alt="French Vanilla Flavored Coffee" class="item-image">
+                <h3 class="item-name">French Vanilla Flavored Coffee</h3>
+                <p class="description">Arabica beans with sweet vanilla essence</p>
+                <p class="ingredients">Perfect for drip brew or iced coffee</p>
+                <p class="price">$13.99 | 500g</p>
+                <div class="quantity-controls">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Coffee Products</a></li>
+                    <li><a href="#">Brewing Equipment</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Events & Workshops</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Coffee St, Bean City</p>
+                <p>Email: info@coffeeshop.com</p>
+            </div>
+            <div class="footer-column social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/Facebook_Logo_2023.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/Instagram_icon.png.webp" alt="Twitter"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/1729449055_twitter-logo-square-shape-png.png"
+                            alt="Instagram"></a>
+                </div>
+                <div class="footer-column subscription">
+                    <h3>Subscribe for Updates</h3>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coffee Shop. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of
+                        Service</a> | <a href="#">Accessibility</a>
+                </p>
+            </div>
+            </div>
+    </footer>
+    
+    
+    <script>
+        const menu = {
+            toggle: document.querySelector('.menu-icon'),
+            nav: document.querySelector('nav ul'),
+            dropdown: {
+                toggle: document.querySelector('#aboutUsToggle'),
+                menu: document.querySelector('#aboutUsMenu')
+            }
+        };
+
+        const closeMenus = () => {
+            menu.nav.classList.remove('active');
+            menu.dropdown.menu.classList.remove('show-menu');
+        };
+
+        const isMobile = () => window.innerWidth <= 768;
+
+        menu.toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.nav.classList.toggle('active');
+            menu.dropdown.menu.classList.remove('show-menu');
+        });
+
+        menu.dropdown.toggle.addEventListener('click', (e) => {
+            if (!isMobile()) {
+                e.preventDefault();
+                menu.dropdown.menu.classList.toggle('show-menu');
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav ul') && !e.target.closest('.menu-icon')) {
+                closeMenus();
+            }
+            if (!e.target.closest('#aboutUsToggle') && !e.target.closest('#aboutUsMenu')) {
+                menu.dropdown.menu.classList.remove('show-menu');
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            if (!isMobile()) closeMenus();
+        });
+
+        menu.dropdown.toggle.addEventListener('touchend', (e) => {
+            if (isMobile()) {
+                e.preventDefault();
+                menu.dropdown.menu.classList.toggle('show-menu');
+            }
+        });
+    </script>
+    <script>
+        document.querySelectorAll('.qty-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const input = button.parentElement.querySelector('.qty-input');
+                let value = parseInt(input.value);
+
+                if (button.classList.contains('plus')) {
+                    value++;
+                } else {
+                    value = value > 1 ? value - 1 : 1;
+                }
+
+                input.value = value;
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

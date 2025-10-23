@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Events & Workshops</title>
+        <link rel="stylesheet" href="coffeeshop_assignment.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward"/>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="coffeeshop-icons">
+                <img src="images/brown-minimalist-coffee-bean-logo-design.png" alt="coffee icon">
+            </a>
+            <i class="menu-icon fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="coffeeselection.html">Coffee Selection</a></li>
+                <li><a href="brewingequipment.html">Brewing Equipment</a></li>
+                <li>
+                    <a href="#" class="drop-down" id="aboutUsToggle">
+                        Join Us<i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="drop-down-menu" id="aboutUsMenu">
+                        <li><a href="eventsandworkshop.html">Events & Workshops</a></li>
+                        <li><a href="specialoffer.html">Special Offers & Subscriptions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-icons">
+                    <div class="nav-cart-icons">
+                        <a href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <div class="nav-get-started">
+                        <a href="signin.html">Get Started</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="coffee-page-container">
+        <div class="coffee-hero">
+            <div class="coffee-hero-bg"></div>
+            <div class="coffee-hero-content">
+                <h1 class="coffee-hero-title">Coffee Events & Workshops</h1>
+                <p class="coffee-hero-subtitle">Discover and join the best coffee events and workshops in your area</p>
+            </div>
+        </div>
+
+        <div class="coffee-container">
+            <h2 class="coffee-section-title">Upcoming Events & Workshops</h2>
+
+            <div class="coffee-events-grid">
+                <div class="coffee-event-card" data-id="1">
+                    <div class="coffee-event-image">
+                        <img src="images/filter-brewing-masterclass-1024x512.webp" alt="Coffee Brewing Masterclass">
+                        <div class="coffee-event-tag">workshop</div>
+                        <div class="coffee-event-recommended">Recommended</div>
+                    </div>
+
+                    <div class="coffee-event-content">
+                        <h3 class="coffee-event-title">Coffee Brewing Masterclass</h3>
+                        <p class="coffee-event-description">Learn the art of brewing the perfect cup of coffee with our
+                            expert baristas. This hands-on workshop will cover different brewing methods and techniques.
+                        </p>
+
+                        <div class="coffee-event-details">
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>June 15, 2023</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>10:00 AM - 1:00 PM</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Brew Haven Cafe, 123 Coffee St</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                                <span>$45.00</span>
+                            </div>
+                        </div>
+
+                        <div class="coffee-event-footer">
+                            <div class="coffee-rating">
+                                <div class="coffee-stars">
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                </div>
+                                <span class="coffee-rating-value">(4.8)</span>
+                            </div>
+
+                            <button class="coffee-btn coffee-btn-outline">
+                                Details
+                                <svg class="coffee-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="coffee-event-card" data-id="2">
+                    <div class="coffee-event-image">
+                        <img src="images/how-to-perfect-latte-at-home-zz-230424-d026c4.webp"
+                            alt="Latte Art Workshop">
+                        <div class="coffee-event-tag">workshop</div>
+                    </div>
+
+                    <div class="coffee-event-content">
+                        <h3 class="coffee-event-title">Latte Art Workshop</h3>
+                        <p class="coffee-event-description">From hearts to rosettas, learn how to create stunning latte
+                            art designs that will impress your friends and family.</p>
+
+                        <div class="coffee-event-details">
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>June 22, 2023</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>2:00 PM - 4:00 PM</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Artistic Beans, 456 Foam Ave</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                                <span>$35.00</span>
+                            </div>
+                        </div>
+
+                        <div class="coffee-event-footer">
+                            <div class="coffee-rating">
+                                <div class="coffee-stars">
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">☆</span>
+                                </div>
+                                <span class="coffee-rating-value">(4.5)</span>
+                            </div>
+
+                            <button class="coffee-btn coffee-btn-outline">
+                                Details
+                                <svg class="coffee-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="coffee-event-card" data-id="3">
+                    <div class="coffee-event-image">
+                        <img src="images/tribune_2025-02-19_0z8bzu4r_MANILA-Coffee-Festival.avif"
+                            alt="Coffee Origins Festival">
+                        <div class="coffee-event-tag">event</div>
+                        <div class="coffee-event-recommended">Recommended</div>
+                    </div>
+
+                    <div class="coffee-event-content">
+                        <h3 class="coffee-event-title">Coffee Origins Festival</h3>
+                        <p class="coffee-event-description">Join us for a celebration of coffee from around the world.
+                            Sample different varieties and learn about the journey from farm to cup.</p>
+
+                        <div class="coffee-event-details">
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>July 8-9, 2023</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>Metro Convention Center, 789 Bean Blvd</span>
+                            </div>
+
+                            <div class="coffee-detail-row">
+                                <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                                <span>$25.00</span>
+                            </div>
+                        </div>
+
+                        <div class="coffee-event-footer">
+                            <div class="coffee-rating">
+                                <div class="coffee-stars">
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                    <span class="coffee-star">★</span>
+                                </div>
+                                <span class="coffee-rating-value">(4.9)</span>
+                            </div>
+
+                            <button class="coffee-btn coffee-btn-outline">
+                                Details
+                                <svg class="coffee-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event Detail Modal -->
+        <div class="coffee-modal-overlay" id="coffee-modal-overlay">
+            <div class="coffee-modal-content">
+                <div class="coffee-modal-slideshow">
+                    <div class="coffee-slides-container" id="coffee-slides-container">
+                    </div>
+
+                    <div class="coffee-slide-nav">
+                        <button class="coffee-slide-btn coffee-prev-slide" id="coffee-prev-slide">&#8249;</button>
+                        <button class="coffee-slide-btn coffee-next-slide" id="coffee-next-slide">&#8250;</button>
+                    </div>
+
+                    <div class="coffee-slide-indicators" id="coffee-slide-indicators">
+                    </div>
+                </div>
+
+
+
+                <div class="coffee-modal-body">
+                    <div class="coffee-modal-header">
+                        <h2 class="coffee-modal-title" id="coffee-modal-title">Coffee Brewing Masterclass</h2>
+                        <div class="coffee-modal-rating" id="coffee-modal-rating"></div>
+                    </div>
+
+                    <div class="coffee-modal-grid">
+                        <div>
+                            <h3 class="coffee-modal-section-title">About this event</h3>
+                            <p class="coffee-modal-description" id="coffee-modal-description"></p>
+
+                            <div class="coffee-modal-details">
+                                <div class="coffee-detail-row">
+                                    <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    <span><strong>Date:</strong> <span id="coffee-modal-date"></span></span>
+                                </div>
+
+                                <div class="coffee-detail-row">
+                                    <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    <span><strong>Time:</strong> <span id="coffee-modal-time"></span></span>
+                                </div>
+
+                                <div class="coffee-detail-row">
+                                    <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span><strong>Location:</strong> <span id="coffee-modal-location"></span></span>
+                                </div>
+
+                                <div class="coffee-detail-row">
+                                    <svg class="coffee-detail-icon" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>
+                                    <span><strong>Fee:</strong> <span id="coffee-modal-fee"></span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="coffee-registration-box">
+                            <h3 class="coffee-modal-section-title">Registration</h3>
+                            <p><strong>Available Spots:</strong> <span id="coffee-modal-capacity"></span></p>
+                            <p>Reserve your spot now for this exclusive event!</p>
+                            <button class="coffee-btn coffee-btn-primary">Register Now</button>
+                        </div>
+                    </div>
+
+                    <div class="coffee-modal-footer">
+                        <button id="coffee-modal-close" class="coffee-btn coffee-btn-outline">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Coffee Products</a></li>
+                    <li><a href="#">Brewing Equipment</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Events & Workshops</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Coffee St, Bean City</p>
+                <p>Email: info@coffeeshop.com</p>
+            </div>
+            <div class="footer-column social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/Facebook_Logo_2023.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/Instagram_icon.png.webp" alt="Twitter"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/1729449055_twitter-logo-square-shape-png.png"
+                            alt="Instagram"></a>
+                </div>
+                <div class="footer-column subscription">
+                    <h3>Subscribe for Updates</h3>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coffee Shop. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of
+                        Service</a> | <a href="#">Accessibility</a>
+                </p>
+            </div>
+            </div>
+    </footer>
+
+
+    <script>
+        const menu = {
+            toggle: document.querySelector('.menu-icon'),
+            nav: document.querySelector('nav ul'),
+            dropdown: {
+                toggle: document.querySelector('#aboutUsToggle'),
+                menu: document.querySelector('#aboutUsMenu')
+            }
+        };
+
+        const closeMenus = () => {
+            menu.nav.classList.remove('active');
+            menu.dropdown.menu.classList.remove('show-menu');
+        };
+
+        const isMobile = () => window.innerWidth <= 768;
+
+        menu.toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.nav.classList.toggle('active');
+            menu.dropdown.menu.classList.remove('show-menu');
+        });
+
+        menu.dropdown.toggle.addEventListener('click', (e) => {
+            if (!isMobile()) {
+                e.preventDefault();
+                menu.dropdown.menu.classList.toggle('show-menu');
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav ul') && !e.target.closest('.menu-icon')) {
+                closeMenus();
+            }
+            if (!e.target.closest('#aboutUsToggle') && !e.target.closest('#aboutUsMenu')) {
+                menu.dropdown.menu.classList.remove('show-menu');
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            if (!isMobile()) closeMenus();
+        });
+
+        menu.dropdown.toggle.addEventListener('touchend', (e) => {
+            if (isMobile()) {
+                e.preventDefault();
+                menu.dropdown.menu.classList.toggle('show-menu');
+            }
+        });
+    </script>
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const eventCards = document.querySelectorAll('.coffee-event-card');
+            const modal = document.getElementById('coffee-modal-overlay');
+            const closeBtn = document.getElementById('coffee-modal-close');
+            const eventData = [
+                {
+                    id: 1,
+                    title: "Coffee Brewing Masterclass",
+                    description: "Learn the art of brewing the perfect cup of coffee with our expert baristas. This hands-on workshop will cover different brewing methods including pour-over, French press, AeroPress, and espresso. You'll learn about grind size, water temperature, and timing to achieve the perfect extraction. Take home a bag of specialty coffee beans and a brewing guide.",
+                    date: "June 15, 2023",
+                    time: "10:00 AM - 1:00 PM",
+                    location: "Brew Haven Cafe, 123 Coffee St",
+                    fee: "$45.00",
+                    capacity: "12 of 20",
+                    rating: 4.8,
+                    images: [
+                        "images/b667d361e080fe2772bed7b159b73792_2048x2048.webp",
+                        "images/firstcrack-homepage-image-5.jpg",
+                        "images/Coffee-Classes.jpg"
+                    ]
+                },
+                {
+                    id: 2,
+                    title: "Latte Art Workshop",
+                    description: "From hearts to rosettas, learn how to create stunning latte art designs that will impress your friends and family. Our professional baristas will guide you through the techniques of steaming milk to the perfect texture and pouring beautiful designs. Practice on professional espresso machines and take your coffee presentation skills to the next level.",
+                    date: "June 22, 2023",
+                    time: "2:00 PM - 4:00 PM",
+                    location: "Artistic Beans, 456 Foam Ave",
+                    fee: "$35.00",
+                    capacity: "8 of 15",
+                    rating: 4.5,
+                    images: [
+                        "images/fb_thumb_57557dd548ed6.jpg",
+                        "images/image.jpg",
+                        "images/Latte-Art_banner.jpg"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "Coffee Origins Festival",
+                    description: "Join us for a celebration of coffee from around the world. Sample different varieties and learn about the journey from farm to cup. Meet local roasters, participate in cupping sessions, and explore the rich diversity of coffee flavors from Ethiopia, Colombia, Guatemala, and beyond. Food vendors and live music will make this a full sensory experience.",
+                    date: "July 8-9, 2023",
+                    time: "9:00 AM - 6:00 PM",
+                    location: "Metro Convention Center, 789 Bean Blvd",
+                    fee: "$25.00",
+                    capacity: "150 of 500",
+                    rating: 4.9,
+                    images: [
+                        "images/011.jpg",
+                        "images/TCF-September-2017-83.jpg",
+                        "images/SFCoffee-Pour.png"
+                    ]
+                }
+            ];
+
+
+            eventCards.forEach(card => {
+                card.addEventListener('click', function () {
+                    const eventId = parseInt(this.getAttribute('data-id'));
+                    const event = eventData.find(e => e.id === eventId);
+
+                    if (event) {
+                        document.getElementById('coffee-modal-title').textContent = event.title;
+                        document.getElementById('coffee-modal-description').textContent = event.description;
+                        document.getElementById('coffee-modal-date').textContent = event.date;
+                        document.getElementById('coffee-modal-time').textContent = event.time;
+                        document.getElementById('coffee-modal-location').textContent = event.location;
+                        document.getElementById('coffee-modal-fee').textContent = event.fee;
+                        document.getElementById('coffee-modal-capacity').textContent = event.capacity;
+
+
+                        const slidesContainer = document.getElementById('coffee-slides-container');
+                        const slideIndicators = document.getElementById('coffee-slide-indicators');
+                        slidesContainer.innerHTML = '';
+                        slideIndicators.innerHTML = '';
+
+                        event.images.forEach((imgSrc, index) => {
+                            const slide = document.createElement('div');
+                            slide.className = `coffee-slide ${index === 0 ? 'active' : ''}`;
+                            slide.innerHTML = `<img src="${imgSrc}" alt="${event.title} - Image ${index + 1}">`;
+                            slidesContainer.appendChild(slide);
+
+                            const indicator = document.createElement('div');
+                            indicator.className = `coffee-indicator ${index === 0 ? 'active' : ''}`;
+                            indicator.dataset.index = index;
+                            slideIndicators.appendChild(indicator);
+                        });
+
+                        // Show the modal
+                        modal.classList.add('active');
+                    }
+                });
+            });
+
+            closeBtn.addEventListener('click', function () {
+                modal.classList.remove('active');
+            });
+
+            modal.addEventListener('click', function (e) {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                }
+            });
+
+
+            const prevSlideBtn = document.getElementById('coffee-prev-slide');
+            const nextSlideBtn = document.getElementById('coffee-next-slide');
+
+            prevSlideBtn.addEventListener('click', function () {
+                const activeSlide = document.querySelector('.coffee-slide.active');
+                const slides = document.querySelectorAll('.coffee-slide');
+                const indicators = document.querySelectorAll('.coffee-indicator');
+
+                let index = Array.from(slides).indexOf(activeSlide);
+                activeSlide.classList.remove('active');
+                indicators[index].classList.remove('active');
+
+                index = (index - 1 + slides.length) % slides.length;
+                slides[index].classList.add('active');
+                indicators[index].classList.add('active');
+            });
+
+            nextSlideBtn.addEventListener('click', function () {
+                const activeSlide = document.querySelector('.coffee-slide.active');
+                const slides = document.querySelectorAll('.coffee-slide');
+                const indicators = document.querySelectorAll('.coffee-indicator');
+
+                let index = Array.from(slides).indexOf(activeSlide);
+                activeSlide.classList.remove('active');
+                indicators[index].classList.remove('active');
+
+                index = (index + 1) % slides.length;
+                slides[index].classList.add('active');
+                indicators[index].classList.add('active');
+            });
+
+            document.addEventListener('click', function (e) {
+                if (e.target.classList.contains('coffee-indicator')) {
+                    const slides = document.querySelectorAll('.coffee-slide');
+                    const indicators = document.querySelectorAll('.coffee-indicator');
+                    const newIndex = parseInt(e.target.dataset.index);
+
+                    slides.forEach(slide => slide.classList.remove('active'));
+                    indicators.forEach(indicator => indicator.classList.remove('active'));
+
+                    slides[newIndex].classList.add('active');
+                    indicators[newIndex].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
